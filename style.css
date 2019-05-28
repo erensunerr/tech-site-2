@@ -1,0 +1,15 @@
+@keyframes redblack {
+  0%   {background-color:red;}
+  50%	{background-color:black;}
+  100% {background-color:red;}
+}
+
+body {
+	background-color: red;
+	animation: redblack 2s ease infinite;
+}
+
+p .uhacked {
+	text-transform: uppercase;
+    text-align: center;
+}
